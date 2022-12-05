@@ -15,6 +15,7 @@ function App() {
         <p>Welcome to our amazing app!</p>
         <Login />
         <LogoutButton />
+        <Profile />
       </header>
     </div>
   );
