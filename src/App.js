@@ -1,4 +1,7 @@
 import "./App.css";
+import Login from "./Login";
+import LogoutButton from "./Logout";
+import Profile from "./Projile";
 
 function App() {
   return (
@@ -10,6 +13,8 @@ function App() {
           alt="logo"
         />
         <p>Welcome to our amazing app!</p>
+        <Login />
+        <LogoutButton />
       </header>
     </div>
   );
